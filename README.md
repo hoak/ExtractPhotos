@@ -1,5 +1,5 @@
 # ExtractPhotos
-Extracts/Sorts Photo Attachments, and improve photo names and field names from a FGDB derived from a Hosted Feature Layers that has photo attachments
+This ArcGIS Pro sample project uses a python script and script tool to extract and sort photo attachments from a hosted feature layer in ArcGIS Online. It also improves photo file names and field names. 
 
 ## Why is the tool useful?
 1. It puts all the photos into a folder.
