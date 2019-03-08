@@ -26,6 +26,7 @@ It adds the following fields to your attachment table:
    - It can copies all the (default survey123) fields and other fields from the point collection featureclass into the attach table.
      (If you are using survey123 these fields are: Creator, Editor, CreationDate, EditDate)
    - It copies any additional custom fields you are using, such as Category and Description or Type or Name or anything else
+   Note: you need to know the field names and type them all in (case sensitive)
 
 It add the following fields to your point featureclass:
    - It adds a featureID field, which is the same as the objectID, this is a unique field
@@ -33,8 +34,8 @@ It add the following fields to your point featureclass:
 
 It creates the following output files:
    - In your output folder it places all the photos that were collected.
-   - It names the photos based on the fields in the code:
-   - It makes subfolders based on a field and then copies the photos into these subfolders
+   - It names the photos based off a field you pass in and prepends it to a unique base name.
+   - It makes subfolders based on a field and then sorts the photos into these subfolders.
 
 # One Time Setup Instructions
 
