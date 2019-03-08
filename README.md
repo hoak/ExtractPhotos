@@ -38,7 +38,7 @@ It creates the following output files:
 
 # One Time Setup Instructions
 
-## Open the ArcGIS PRo sample project
+## Open the ArcGIS Pro sample project
 Open the included sample project
 
 ## Examine previous run results
@@ -68,6 +68,7 @@ The tool comes with a post run view so you can see the results. You first need t
 ##  Finally Run the script tool from arcgis pro
 
 PARAMS: (when entering in the script tool omit the quotes)
+
 features =  featureclass, collected gdb featureclass you downloaded from AGOL/Portal
 
 attachments =  table, collected attachment gdb table you downloaded from AGOL/Portal
