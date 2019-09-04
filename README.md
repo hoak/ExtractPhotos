@@ -78,9 +78,9 @@ outfolder = folder, 'output' folder you need to have this empty and alteady ther
 
 sortfield = field or string, the sort field, ie  'CATEGORY' or 'Creator' for example. This field must also be present below in the userifields
   
-localkey = string, 'GlobalID'  the local field name in the features that joines to the same value in the attachment
+localkey = string, 'GlobalID'  the local field name in the features that joines to the same value in the attachment. TIP - look at the relationship and use what it says there exactly as the origin primary key, case sensitive
 
-foreignkey = string, 'REL_GLOBALID' the foreign key field name in the attachment table that matches the features id
+foreignkey = string, 'REL_GLOBALID' the foreign key field name in the attachment table that matches the features id. TIP - look at the relationship and use what it says there exactly as the origin foreign key, case sensitive
 
 userfields = existing fields to include from the featureclass, in this format 'CATEGORY;DESCRIPTION;CreationDate;Creator;EditDate;Editor;Picture'  
 
